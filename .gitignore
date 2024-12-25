@@ -1,0 +1,33 @@
+# Node.js Backend (calculator-backend)
+# Ignore node_modules and other unnecessary files for the backend
+calculator-backend/node_modules/
+calculator-backend/.env
+calculator-backend/.env.local
+calculator-backend/.env.development
+calculator-backend/.env.production
+calculator-backend/.env.test
+calculator-backend/dist/
+calculator-backend/logs/
+
+# React Frontend (calculator-frontend)
+# Ignore node_modules, build artifacts, and unnecessary files for the frontend
+calculator-frontend/node_modules/
+calculator-frontend/.env
+calculator-frontend/.env.local
+calculator-frontend/.env.development
+calculator-frontend/.env.production
+calculator-frontend/.env.test
+calculator-frontend/build/
+calculator-frontend/dist/
+
+# MacOS system files
+.DS_Store
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
