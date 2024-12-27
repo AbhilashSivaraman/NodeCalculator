@@ -19,7 +19,7 @@ app.post('/calculate', (req, res) => {
 
     let result;
     switch (operation) {
-        case 'add':
+        case 'Add':
             result = num1 + num2;
             break;
         case 'subtract':
