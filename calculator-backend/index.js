@@ -43,5 +43,5 @@ app.post('/calculate', (req, res) => {
 
 // Start server
 app.listen(port, () => {
-    // console.log(`Calculator backend running at http://localhost:${port}`);
+    console.log(`Calculator backend running at http://localhost:${port}`);
 });
